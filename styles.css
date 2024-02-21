@@ -1,8 +1,7 @@
 body{
 
-    background-image: url("https://i.pinimg.com/564x/31/32/e0/3132e097ed139c01b092c438c603a656.jpg") ;
+    background-image: url("https://i.pinimg.com/564x/4a/89/d7/4a89d7d1e3b31c877fec843fa4f0493a.jpg") ;
     background-size: 400px 8500px;
-    opacity: 50px;
     background-position: left;
     background-repeat: no-repeat;
     display: absolute;
@@ -11,10 +10,13 @@ body{
     margin: 0;
     padding: 0;
     background-color: #f2f2f2;
-    
-    
-    
+ 
 }
+
+.hide-background {
+    background-image: none !important;
+}
+
 
 .container {
     max-width: 800px; /* Limita el ancho máximo del contenido */
@@ -45,14 +47,21 @@ body{
 .titulo_2{
     text-align: left;
     margin-right: 750px;
-    margin-left: 45px;
+    margin-left: 100px;
+    color: rgb(136, 136, 25);
+}
+
+.habilidades-especificas {
+    text-align: left;
+    margin-right: 750px;
+    margin-left: 35px;
     color: rgb(136, 136, 25);
 }
 
 .titulo_3{
     text-align: left;
     margin-right: 750px;
-    margin-left: 45px;
+    margin-left: 100px;
     color: rgb(136, 136, 25);
 }
 
@@ -207,6 +216,66 @@ h2{
         padding: 10px;
     }
 }
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 0 10px;
+    color: white;
+    text-shadow: 2px 2px rgb(116, 116, 116);
+    text-transform: uppercase;
+    cursor: pointer;
+    border: solid 2px black;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-size: 17px;
+    background-color: hsl(49deg 98% 60%);
+    border-radius: 50px;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.5s ease;
+    margin-left: 130px; /* Ajustar el margen izquierdo para mover el botón más a la derecha */
+  }
+  
+  button:active {
+    transform: scale(0.9);
+    transition: all 100ms ease;
+  }
+  
+  button svg {
+    transition: all 0.5s ease;
+    z-index: 2;
+  }
+  
+  .play {
+    transition: all 0.5s ease;
+    transition-delay: 300ms;
+  }
+  
+  button:hover svg {
+    transform: scale(3) translate(50%);
+  }
+  
+  .now {
+    position: absolute;
+    left: 0;
+    transform: translateX(-100%);
+    transition: all 0.5s ease;
+    z-index: 2;
+  }
+  
+  button:hover .now {
+    transform: translateX(10px);
+    transition-delay: 300ms;
+  }
+  
+  button:hover .play {
+    transform: translateX(200%);
+    transition-delay: 300ms;
+  }
+  
 
 
  
