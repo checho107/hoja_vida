@@ -1,0 +1,191 @@
+body{
+
+    background-image: url("https://i.pinimg.com/564x/31/32/e0/3132e097ed139c01b092c438c603a656.jpg") ;
+    background-size: 400px 2500px;
+    opacity: 50px;
+    background-position: left;
+    background-repeat: no-repeat;
+    display: absolute;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    
+    
+}
+
+.perfil{
+
+    margin-top:20px;
+    margin-left: 65px;
+    border-width: 2px;
+    border-color: rgb(221, 166, 93);
+    border-style: solid;
+    border-radius: 10px;
+}
+
+.titulo{ 
+    text-align: left;
+    margin-right: 750px;
+    margin-left: 45px;
+    color: rgb(221, 166, 93);
+    margin-top: 50px;
+    
+}
+
+.titulo_2{
+    text-align: left;
+    margin-right: 750px;
+    margin-left: 45px;
+    color: rgb(136, 136, 25);
+}
+
+.titulo_3{
+    text-align: left;
+    margin-right: 750px;
+    margin-left: 45px;
+    color: rgb(136, 136, 25);
+}
+
+.txt_1{
+   
+    margin-left: 10px;
+    margin-right: 900px;
+    color: rgb(230, 221, 221);
+}
+
+.txt_2{
+   
+    margin-left: 10px;
+    margin-right: 900px;
+    color: rgb(230, 221, 221);
+}
+
+.txt_3{
+   
+    margin-left: 10px;
+    margin-right: 900px;
+    color: rgb(230, 221, 221);
+}
+
+.parrafo_1{
+    
+    margin-left: 600px;
+    color: rgba(165, 42, 42, 0.795);
+}
+
+.parrafo_2{
+    
+    margin-bottom: 90px;
+    margin-left: 600px;
+    color: rgba(5, 4, 4, 0.795);
+    margin-left: 710px;
+}
+
+.parrafo_3{
+    
+    
+    color: rgba(5, 4, 4, 0.795);
+    margin-left: 550px;
+  
+}
+
+.parrafo_4{
+    
+    
+    color: rgba(5, 4, 4, 0.795);
+    text-align: right;
+  
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column-left {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.column-right {
+    flex: 1;
+    margin-left: 300px;
+    text-align: center;
+    margin-top: 30px;
+    
+}
+
+.column-left, .column-right {
+    column-count: 1;
+    column-gap: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 20px; 
+}
+
+.texto1{
+
+    margin-top: 80px;
+    margin-right: 550px;
+}
+
+
+.texto2{
+    float:center; 
+    width:70%;
+    margin-left:175px ;
+    text-align: justify;
+    margin-top: 80px;
+}
+
+.texto3{
+    float:center; 
+    width:70%;
+    margin-left:175px ;
+    text-align: justify;
+    margin-top: 50px;
+}
+
+.texto4{
+    float:center; 
+    width:70%;
+    margin-left:175px ;
+    text-align: justify;
+    margin-top: 50px;
+}
+
+.texto5{
+    float:center; 
+    width:70%;
+    margin-left:175px ;
+    text-align: justify;
+    margin-top: 50px;
+}
+
+.linea-1{
+    color: rgb(223, 175, 112);
+}
+
+h2{
+    color: rgb(221, 166, 93);
+}
+
+@media only screen and (max-width: 1200px) {
+    .container {
+        flex-direction: column;
+    }
+}
+
+/* Estilos para pantallas pequeñas */
+@media only screen and (max-width: 600px) {
+    .column-left, .column-right {
+        width: 100%;
+        margin: 0;
+        padding: 10px;
+    }
+}
+
+
+ 
