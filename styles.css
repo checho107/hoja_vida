@@ -70,6 +70,7 @@ body{
     margin-left: 10px;
     margin-right: 900px;
     color: rgb(230, 221, 221);
+    display: none;
 }
 
 .txt_2{
@@ -207,6 +208,11 @@ h2{
         flex-direction: column;
     }
 }
+
+.custom-button {
+    margin-left: 55px;
+    margin-top: 10px;
+  }
 
 /* Estilos para pantallas pequeñas */
 @media only screen and (max-width: 600px) {
