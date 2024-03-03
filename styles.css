@@ -258,6 +258,25 @@ button {
   button:hover span {
     transform: translateX(7px);
   }
+
+  .redes-sociales {
+    text-align: center; /* Centrar hacia la derecha */
+    margin-top: 20px; /* Espacio superior */
+    margin-left: 150px;
+}
+
+.social-icon {
+    display: inline-block; /* Para que estén en línea */
+    margin-left: 10px; /* Espacio entre iconos */
+    font-size: 24px; /* Tamaño del icono */
+    color: #333; /* Color del icono */
+    transition: color 0.3s; /* Transición suave de color */
+}
+
+/* Cambiar color al pasar el ratón sobre el icono */
+.social-icon:hover {
+    color: #007bff; /* Color azul brillante */
+}
   
 
  
